@@ -1,21 +1,28 @@
-
 body {	
 	/*Remove body margins*/
 	margin:0;
-	/*background-image: url("../images/");*/
-	background-color: #ccc;
+	background-color: #ffffff;
+	background-image: url("../images/background.png");
 	width:100%;
+	font-family: "arial", "Helvetica Neue", "Helvetica", "Sans-serif";
+}
+
+p {
+	color:#777777;
 }
 
 /*Header start*/
 header {
-	background-color: #fff7ed;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
 	text-align: center;
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
 	height: 60px;
-	margin: 0px 0px 10px 0px;}
+	margin: 0px 0px 10px 0px;
+}
 
 header h1{
-	background-color: #009999;
+	background-color: #4aaaa5;
 	color: #f5f4f0;
 	box-sizing: border-box;
 	margin: 0px 0px 0px 40px;
@@ -28,7 +35,7 @@ header h1{
 header h2{
 	color:grey;
 	font-size: 80%;
-	padding: 5px 10px 0px 10px;
+	padding: 5px 20px 0px 10px;
 	display:inline-block;
 }
 
@@ -42,40 +49,42 @@ header h2{
 .connect {
 	background-color: #fff;
 	outline: 1px solid #a4a4a4;
-	height: 140px;
-	width: 190px;
+	height: 160px;
+	width: 270px;
 	margin-right: 10%;
 	padding: 0px 15px 0px 15px;
 	box-sizing: border-box;
 	float: right;
 	text-align: center;
 
-	color: #009999;
+	color: #4aaaa5;
 	font-size: 15px;
 }
 .connect h3{
 	border-bottom: 2px solid #ccc;
+	padding: 0 0 10px 0;
 }
 .connect img{
-	height: 40px;
-	width: 40px;
+	height: 50px;
+	width: 50px;
+	margin: 5px 5px 0px 5px;
 }
 /*Connect with me section end*/
 
 /*About me section start*/
 #aboutMe {
-	outline: 1px solid #a4a4a4;
 	background-color: #fff;
+	border: 1px solid #dddddd;
 	box-sizing: border-box;
 	margin: 0px 0px 0px 40px;
 	padding: 20px 15px 20px 15px;
-	width: 60%;
+	width: 650px;
 	float: left;
 }
 
 #aboutMe h3{
 	border-bottom: 3px solid #ccc;
-	color: #009999;
+	color: #4aaaa5;
 	font-size: 30px;	
 }
 
@@ -88,12 +97,12 @@ footer{
 	width:100%;
 	height:10%;
 	clear:both;
-	background-color: #969696;
+	background-color: #666666;
 	color:#ccc;
 	font-size: 70%;
 	text-align:center;
 	vertical-align: middle;
-	border-top: 5px solid #009999;
+	border-top: 5px solid #4aaaa5;
 }
 
 
