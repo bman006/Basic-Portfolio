@@ -7,9 +7,26 @@ body {
 	font-family: "arial", "Helvetica Neue", "Helvetica", "Sans-serif";
 }
 
-p {
+h3 {
+	border-bottom: 3px solid #ccc;
+	color: #4aaaa5;
+	font-size: 30px;
+}
+
+
+p, form{
 	color:#777777;
 }
+
+/*Input fields start*/
+input {
+	width: 608px;
+	padding: 5px 0px 5px 5px;
+}
+input[placeholder] {
+	color:#ccc;
+}
+/*Input fields end*/
 
 /*Header start*/
 header {
@@ -56,13 +73,12 @@ header h2{
 	box-sizing: border-box;
 	float: right;
 	text-align: center;
-
 	color: #4aaaa5;
-	font-size: 15px;
 }
 .connect h3{
 	border-bottom: 2px solid #ccc;
 	padding: 0 0 10px 0;
+	font-size: 15px;
 }
 .connect img{
 	height: 50px;
@@ -70,25 +86,6 @@ header h2{
 	margin: 5px 5px 0px 5px;
 }
 /*Connect with me section end*/
-
-/*About me section start*/
-#aboutMe {
-	background-color: #fff;
-	border: 1px solid #dddddd;
-	box-sizing: border-box;
-	margin: 0px 0px 0px 40px;
-	padding: 20px 15px 20px 15px;
-	width: 650px;
-	float: left;
-}
-
-#aboutMe h3{
-	border-bottom: 3px solid #ccc;
-	color: #4aaaa5;
-	font-size: 30px;	
-}
-
-/*About me section end*/
 
 /*Footer start*/
 footer{
@@ -104,6 +101,17 @@ footer{
 	vertical-align: middle;
 	border-top: 5px solid #4aaaa5;
 }
-
-
 /*Footer end*/
+
+/*Main section start*/
+.mainSection {
+	background-color: #fff;
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+	margin: 0px 0px 0px 40px;
+	padding: 20px 15px 20px 15px;
+	width: 650px;
+	float: left;
+}
+
+/*Main section end*/
