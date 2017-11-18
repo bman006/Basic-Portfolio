@@ -1,5 +1,4 @@
 body {	
-	/*Remove body margins*/
 	margin:0;
 	background-color: #ffffff;
 	background-image: url("../images/background.png");
@@ -12,7 +11,13 @@ h3 {
 	color: #4aaaa5;
 	font-size: 30px;
 }
-
+h5 {
+	margin:0;
+	padding: 0px 0px 0px 0px;
+	border:none;
+	font-weight: normal;
+	line-height: 0px;
+}
 
 p, form{
 	color:#777777;
@@ -23,8 +28,30 @@ input {
 	width: 608px;
 	padding: 5px 0px 5px 5px;
 }
+
 input[placeholder] {
 	color:#ccc;
+}
+input[text] {
+	padding: 10px;
+}
+#connectMessage {
+	height:100px;
+}
+#connectButton {
+	background-color: #4aaaa5;
+	color: #f5f4f0;
+	border:none;
+	height:30px;
+	width:100px;
+}
+#connectButton:active {
+	background-color: #f5f4f0;
+	color: #4aaaa5;
+
+}
+#connectButton:hover {
+	background-color: #3b8682;	
 }
 /*Input fields end*/
 
@@ -112,6 +139,9 @@ footer{
 	padding: 20px 15px 20px 15px;
 	width: 650px;
 	float: left;
+}
+.mainSection h3 {
+	margin-top: 10px;
 }
 
 /*Main section end*/
