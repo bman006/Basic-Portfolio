@@ -24,7 +24,7 @@ p, form{
 }
 
 /*Input fields start*/
-input {
+input, textarea {
 	width: 608px;
 	padding: 5px 0px 5px 5px;
 }
@@ -37,6 +37,9 @@ input[text] {
 }
 #connectMessage {
 	height:100px;
+	margin: 0px 0px 10px 0px;
+	word-wrap: break-word;
+	word-break: keep-all;
 }
 #connectButton {
 	background-color: #4aaaa5;
@@ -144,4 +147,22 @@ footer{
 	margin-top: 10px;
 }
 
+.mainSection img{
+	position: absolute;
+	width: 250px;
+}
+.portfolioImagesLeft {
+	left: 0px;
+}
+.portfolioImagesRight {
+	right: 0px;
+}
+
 /*Main section end*/
+
+/*Profile Picture*/
+#profilePic {
+	position:static;
+	width: 100px;
+	height: 100px;
+}
