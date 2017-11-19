@@ -29,8 +29,8 @@ input, textarea {
 	padding: 5px 0px 5px 5px;
 }
 
-input[placeholder] {
-	color:#ccc;
+input::placeholder {
+	color:#cccccc;
 }
 input[text] {
 	padding: 10px;
@@ -72,7 +72,7 @@ header h1{
 	background-color: #4aaaa5;
 	color: #f5f4f0;
 	box-sizing: border-box;
-	margin: 0px 0px 0px 40px;
+	margin: 0px 180px 0px 40px;
 	padding: 10px 0px 0px 0px;
 	width: 250px;
 	height: 60px;
@@ -85,23 +85,18 @@ header h2{
 	padding: 5px 20px 0px 10px;
 	display:inline-block;
 }
-
-.headerLinks {
-	margin-right: 10%;
-	text-align: right;
-}
 /*Header end*/
 
 /*Connect with me section start*/
 .connect {
 	background-color: #fff;
-	outline: 1px solid #a4a4a4;
+	border: 1px solid #dddddd;
 	height: 160px;
 	width: 270px;
-	margin-right: 10%;
+	margin-left: 40px;
 	padding: 0px 15px 0px 15px;
 	box-sizing: border-box;
-	float: right;
+	display: inline-block;
 	text-align: center;
 	color: #4aaaa5;
 }
@@ -130,6 +125,7 @@ footer{
 	text-align:center;
 	vertical-align: middle;
 	border-top: 5px solid #4aaaa5;
+	z-index: 1000;
 }
 /*Footer end*/
 
@@ -138,7 +134,7 @@ footer{
 	background-color: #fff;
 	border: 1px solid #dddddd;
 	box-sizing: border-box;
-	margin: 0px 0px 0px 40px;
+	margin: 0px 0px 100px 40px;
 	padding: 20px 15px 20px 15px;
 	width: 650px;
 	float: left;
@@ -148,14 +144,36 @@ footer{
 }
 
 .mainSection img{
-	position: absolute;
-	width: 250px;
+	position: relative;
+	width: 280px;
+	z-index: 50;
 }
-.portfolioImagesLeft {
-	left: 0px;
+.mainSection a{
+	display: block;
+	z-index: 100;
+	box-sizing: border-box;
+	padding: 15px 0px 15px 0px;
+	height: 50px;
+	width: 280px;
+	background-color: #4aaaa5;
+	text-align: center;
+	text-decoration: none;
+	color: #f5f4f0;
+	font-weight: bold;
+	font-size: 1.3em;
+	position: relative;
+	top: -80px;
+	float: left;
 }
+.portfolioImages {
+	padding: 0px 0px 20px 0px;
+	z-index: 100;
+} 
 .portfolioImagesRight {
-	right: 0px;
+	float: right;
+}
+.portfolio-links-right {
+	right: -58px;
 }
 
 /*Main section end*/
@@ -163,6 +181,9 @@ footer{
 /*Profile Picture*/
 #profilePic {
 	position:static;
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
+	margin: 0px 20px 0px 0px;
+	display: inline-block;
+	float: left;
 }
